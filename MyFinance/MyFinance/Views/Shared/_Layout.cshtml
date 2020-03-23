@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" />
 </head>
-<body onload="CarregarUsuarioLogado">
+<body onload="CarregarUsuarioLogado()">
     <header>
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-light border-bottom box-shadow mb-3">
             <div class="container">
@@ -51,13 +51,14 @@
 
     @RenderSection("Scripts", required: false)
    
-
     <script>
     function CarregarUsuarioLogado() {
-        var nome = '@HttpContextAccessor.HttpContext.Session.GetString("NomeUsuarioLogado")'
-        var divNome = document.getElementById("NomeUsuarioLogado");
-        divNome.innerHTML = "Olá " + nome + " (Sair)";
-        divNome.style = "color:#000000; border: 1px solid #000000; text-align: right; height:50px; padding-top:13px;"
+        var nome = '@HttpContextAccessor.HttpContext.Session.GetString("NomeUsuarioLogado")';
+        if (nome.length > 0) {
+            var divNome = document.getElementById("NomeUsuarioLogado");
+            divNome.innerHTML = "Olá " + nome + " (Sair)";
+            divNome.style = "color:#000000; border: 1px solid #000000; text-align: right; height:50px; padding-top:13px;"
+        }        
     }
     </script>
 </body>
