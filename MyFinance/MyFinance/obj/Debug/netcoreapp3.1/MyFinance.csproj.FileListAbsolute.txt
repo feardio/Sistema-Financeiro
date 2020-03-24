@@ -240,3 +240,5 @@ C:\Users\Vinícius\source\repos\NewRepo2\MyFinance\MyFinance\obj\Debug\netcoreap
 C:\Users\Vinícius\source\repos\NewRepo2\MyFinance\MyFinance\obj\Debug\netcoreapp3.1\MyFinance.dll
 C:\Users\Vinícius\source\repos\NewRepo2\MyFinance\MyFinance\obj\Debug\netcoreapp3.1\MyFinance.pdb
 C:\Users\Vinícius\source\repos\NewRepo2\MyFinance\MyFinance\obj\Debug\netcoreapp3.1\MyFinance.genruntimeconfig.cache
+C:\Users\Vinícius\source\repos\NewRepo2\MyFinance\MyFinance\obj\Debug\netcoreapp3.1\Razor\Views\Usuario\Registrar.cshtml.g.cs
+C:\Users\Vinícius\source\repos\NewRepo2\MyFinance\MyFinance\obj\Debug\netcoreapp3.1\Razor\Views\Usuario\Sucesso.cshtml.g.cs
