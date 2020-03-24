@@ -10,8 +10,17 @@ namespace MyFinance.Controllers
 {
     public class UsuarioController : Controller
     {
-        public IActionResult Login()
+        [HttpGet]
+        public IActionResult Login(int? id)
         {
+            if(id != null)
+            {
+                if(id == 0)
+                {
+                    HttpContext.Session.SetString("IDUsuarioLogado", string.Empty);
+                    HttpContext.Session.SetString("NomeUsuarioLogado", string.Empty);
+                }
+            }
             return View();
         }
 
