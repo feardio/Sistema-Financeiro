@@ -242,3 +242,10 @@ C:\Users\Vinícius\source\repos\NewRepo2\MyFinance\MyFinance\obj\Debug\netcoreap
 C:\Users\Vinícius\source\repos\NewRepo2\MyFinance\MyFinance\obj\Debug\netcoreapp3.1\MyFinance.genruntimeconfig.cache
 C:\Users\Vinícius\source\repos\NewRepo2\MyFinance\MyFinance\obj\Debug\netcoreapp3.1\Razor\Views\Usuario\Registrar.cshtml.g.cs
 C:\Users\Vinícius\source\repos\NewRepo2\MyFinance\MyFinance\obj\Debug\netcoreapp3.1\Razor\Views\Usuario\Sucesso.cshtml.g.cs
+C:\Users\Vinícius\source\repos\NewRepo2\MyFinance\MyFinance\obj\Debug\netcoreapp3.1\Razor\Views\Home\Menu.cshtml.g.cs
+C:\Users\Vinícius\source\repos\NewRepo2\MyFinance\MyFinance\obj\Debug\netcoreapp3.1\Razor\Views\Conta\Index.cshtml.g.cs
+C:\Users\Vinícius\source\repos\NewRepo2\MyFinance\MyFinance\obj\Debug\netcoreapp3.1\Razor\Views\PlanoConta\Index.cshtml.g.cs
+C:\Users\Vinícius\source\repos\NewRepo2\MyFinance\MyFinance\obj\Debug\netcoreapp3.1\Razor\Views\Transacao\Dashboard.cshtml.g.cs
+C:\Users\Vinícius\source\repos\NewRepo2\MyFinance\MyFinance\obj\Debug\netcoreapp3.1\Razor\Views\Transacao\Extrato.cshtml.g.cs
+C:\Users\Vinícius\source\repos\NewRepo2\MyFinance\MyFinance\obj\Debug\netcoreapp3.1\Razor\Views\Transacao\Index.cshtml.g.cs
+C:\Users\Vinícius\source\repos\NewRepo2\MyFinance\MyFinance\obj\Debug\netcoreapp3.1\Razor\Views\Home\Ajuda.cshtml.g.cs

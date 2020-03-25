@@ -11,7 +11,7 @@
     <header>
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-light border-bottom box-shadow mb-3">
             <div class="container">
-                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">MyFinance</a>
+                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Menu">MyFinance</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -53,11 +53,12 @@
    
     <script>
     function CarregarUsuarioLogado() {
-        var nome = '@HttpContextAccessor.HttpContext.Session.GetString("NomeUsuarioLogado")';
+        var nome = '@HttpContextAccessor.HttpContext.Session.GetString("NomeUsuarioLogado")'
+
         if (nome.length > 0) {
             var divNome = document.getElementById("NomeUsuarioLogado");
             divNome.innerHTML = "Olá " + nome + "<a href='../Usuario/Login/0'> (Sair)</a>";
-            divNome.style = "text-align: right; color:#000000; border: 1px solid #000000; height:50px; padding-top:13px;"
+            divNome.style = " color:#000000; text-align: right; height:50px; padding-top:13px;"
         }        
     }
     </script>
